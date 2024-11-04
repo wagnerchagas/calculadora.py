@@ -1,3 +1,5 @@
 import calculadora
-print(calculadora.somar(1, 2))
-print(calculadora.subtrair(5 - 2))
+print(calculadora.somar(4, 2))
+print(calculadora.subtracao(4 - 2))
+print(calculadora.multiplicar(3 * 2))
+print(calculadora.divisao(10 / 2))
