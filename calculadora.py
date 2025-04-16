@@ -11,4 +11,12 @@ def multiplicar(a, b):
 
 
 def divisao(a, b):
-    return a / b
+    if b == 0:
+        return 'Erro" divisão por zero'
+        return  a / b
+
+
+# if opcao == '0':
+#     print("Saindo...")
+#     break
+# elif opcao in ['1', '2', '3', '4', '0']:

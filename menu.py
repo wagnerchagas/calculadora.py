@@ -6,17 +6,24 @@
 # 0. Sair
 
 
-#
+from calculadora import somar, subtrair, multiplicar, dividir
 
 
 def menu():
     while True:
+        print("\nEscolha uma opção:")
 
+        print("1.somar")
+        print("2.subtrair")
+        print("3. multiplicar")
+        print("4.divisao")
+        print("0.sair")
 
-print("Escolha uma opção:")
-print(menu.somar(4, 2))
-print(menu.subtracao(4 - 2))
-print(menu.multiplicar(3 * 2))
-print(menu.divisao(10 / 2))
+        opcao = input("Digite uma opção:")
 
-opcao = input("Digite uma opção:")
+        if opcao == '0':
+            print("Saindo...")
+            break
+        elif opcao in ['1', '2', '3', '4']:
+            a = float(input("Digite o primeiro número:"))
+            b = float(input("Digite o segundo número:"))
